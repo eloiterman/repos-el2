@@ -1,0 +1,145 @@
+
+/* Put Custom css here*/
+
+
+/*navbar*/
+.navbar{background-color: #545354}
+.navbar-inverse .navbar-nav > li > a{color:#fff;}
+.navbar-inverse .navbar-nav > li > a:hover{color:#ff9700;}
+.navbar-brand {background: url("../images/logo.gif") no-repeat;
+width:170px; }
+
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.holder{
+ display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+
+
+}
+.text-vleft {
+  text-align: left;
+   position: relative;
+    top:100px
+    bottom: 0;
+    left: 0;
+    right: 0;
+margin: auto;
+  color:#686767;
+  font-size:12px;
+    background:#fff;
+  filter: alpha(opacity=80);
+        opacity: 0.8;
+        z-index: 100;
+  /*border-radius:10px;
+  border:1px solid #686767;*/
+  padding:10px;
+  max-width:400px;
+height: 250px;
+}
+.text-vleft p{padding-left:4px;}
+
+.text-vleft .larger{
+    font-weight: 400;
+  color:#000;
+  font-size:18px;
+}
+.text-vleft h3{
+  font-size: 2em;
+  font-weight: 400;
+    margin-bottom: 2px;
+  padding-bottom: 4px;
+}
+/*
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}*/
+/*fixed background sections*/
+
+#home {
+  background: url(../images/home3.gif) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#background {
+  background: url(../images/background.gif) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#background .panel {
+  opacity: 0.85;
+}
+.lead{font-size: 14px;}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+
+/*buttons*/
+
+.btn.btn-default.btn-sm{background-color:#ff9700;}
+.btn.btn-default.btn-sm:hover{background-color:#545354;color:#fff;}
+.linked{background: url(../images/linkedin.png) no-repeat;width:99px;height:37px;display:block;float:left;margin-right:20px;border:1px solid;}
+
+/*footer*/
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
